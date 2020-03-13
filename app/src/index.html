@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StarNotary DAPP</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>StarNotary Token DAPP</h1>
+
+    <hr>
+
+    <br>
+      <h1>Mint a Token</h1>
+      <br><label for="starName">SProperty id:</label><input type="text" id="propertyid"></input>
+      <br><label for="starSymbol">Register</label>
+      <br><br><button id="minttoken" onclick="App.mint()">Mint Token</button>
+      <br><br><button id="geturi" onclick="App.geturi()">Get URI</button>
+      <br>
+      <br>
+  
+      <span id="message"></span>
+      <br>
+    <script src="index.js"></script>
+  </body>
+</html>
